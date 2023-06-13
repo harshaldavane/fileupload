@@ -1,0 +1,32 @@
+{
+    "destinations": [
+      {
+       "title":"We require below documents for furthur assessment of your claim. You may submit the same at any of our ICICI Prudentiol Branch office near your or e-mail the same at Claimcore@iciciprulife.com"
+      },
+      {
+        "descriptionOne": "Current Medical Records (admission rates, discharge summary, indoor case papers"
+      },
+      {
+         "descriptionTwo": "Indoor Case paper Histopathology reports Biopsy report"
+      },
+      {
+        "descriptionThree": "Prior medical records of insured/Life Assured"
+      },
+      {
+        "descriptionFour": "First Consultation for Cancer Lung diagnose Histopathology Report Biopsy Report All Radiology Report"
+      },
+      {
+        "descriptionFive": "Prior medical records of Insured/Life Assured"
+      },
+      {
+        "descriptionSix": "All Pathology reports && Other life insurance policy if any"
+      },
+      {
+        "descriptionSeven": "Other"
+      },
+      {
+        "descriptionEignt": "Any document pertaining to the death or sequence of death of the Life Assured"
+      }
+    ]
+  }
+  

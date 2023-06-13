@@ -1,0 +1,1534 @@
+    @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700&display=swap');
+/* #97291e */
+    *{
+        font-family: 'Mulish', sans-serif !important;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        border: none;
+        outline: none;
+        list-style: none;
+        text-decoration: none;
+    }
+    -webkit-scrollbar-thumb {
+        background: red; 
+        border-radius: 10px;
+      }
+    .affinity-portal-searchBar-component{
+        max-width: 800px;
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .affinity-portal-searchBar-component .searchBar-group p{
+        font-weight: 400;
+        color: #E77919;
+    }
+
+    .affinity-portal-searchBar-component .searchBar-group p span{
+        text-transform: uppercase;
+        color: #99291A;
+    }
+
+    .affinity-portal-searchBar-component .searchBar-group .inputTextFeild{
+        width: 100%;
+        position: relative;
+    }
+
+    .affinity-portal-searchBar-component .searchBar-group .inputTextFeild .affinity-portal-keypad-icon{
+        position: absolute;
+        left: 23px;
+        top: 10px;
+    }
+
+    .affinity-portal-searchBar-component .searchBar-group .inputTextFeild .affinity-portal-search-icon{
+        position: absolute;
+        right: 23px;
+        top: 10px;
+    }
+    .affinity-portal-searchBar-component .searchBar-group .inputTextFeild .searchBar{
+    width: 100%!important;
+    height: 50px;
+    border-radius: 15px;
+    border: 2px solid #99291A ;
+    -webkit-box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.2);
+    -moz-box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.2);
+    box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.2);
+    padding-right: 7vw;
+    padding-left: 7vw;
+    font-size:16px;
+    font-family:'Mulish';  
+    }
+
+    .affinity-portal-searchBar-component .searchBar-group .button-group {
+        margin:10px 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-weight: 600;
+    }
+
+    .affinity-portal-searchBar-component .searchBar-group .button-group .bulk-upload-link{
+    color: #99291A;
+    font-weight: bold!important;
+    text-decoration: underline;
+    font-size: 16px;
+        }
+
+        .affinity-portal-searchBar-component .searchBar-group .button-group .bulk-upload-link:hover{
+            text-decoration: none;
+        }
+
+
+    .affinity-portal-searchBar-component .searchBar-group .button-group .submit-reset-button-group .reset.affinity-portal-btn{
+        background-color: #fff;
+        color: #97291e;
+        border: 1px solid #97291e;
+        outline: none;
+        border-radius: 8px;
+        height: 37px;
+        width: 137px;
+        font-size: 16px;
+        transition: 0.15s;
+        }
+
+    .affinity-portal-searchBar-component .searchBar-group .button-group .submit-reset-button-group .submit.affinity-portal-btn:hover{
+        color: #fff !important;
+        background-color: #812215;
+        /* box-shadow: 2px 2px 10px rgba(145, 92, 182, .4); */
+    }
+
+    .affinity-portal-searchBar-component .searchBar-group .button-group .submit-reset-button-group .reset.affinity-portal-btn:hover{
+        color: #fff !important;
+        background-color: #812215;
+        /* box-shadow: 2px 2px 10px rgba(145, 92, 182, .4); */
+    }
+
+    /* Table */
+
+    .affinity-portal-table-component{
+        max-width: 1200px;
+        margin: auto;
+        margin-top: 30px;
+        margin-bottom: 10px;
+        text-align: center;
+        text-transform: capitalize;
+        -webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
+        -moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
+        box-shadow: 0px 2px 1px 0px rgba(0,0,0,0.5);
+        /* height: 700px!important;
+        overflow: scroll;
+         */
+    }
+    .affinity-portal-table-component .table-group{
+     overflow: scroll;
+     overflow: scroll;
+     height: 500px;
+    }
+ 
+    .affinity-portal-table-component h4{
+        background-color: #ebeef3;
+        margin: 0;
+        padding: 13px 10px;
+        font-weight: bold;
+        color: #97291e;
+        font-size: 16px;
+        font-weight: 800;
+    }
+
+    .affinity-portal-table-component .table-group .table{
+        max-width:1500px;
+        width: 1500px!important;
+        
+        overflow: scroll;
+        font-family: 'Mulish';
+        font-size: 16px;
+        box-sizing: border-box;
+        padding: 0;
+        margin-bottom:0;
+        
+    }
+
+    .affinity-portal-table-component .table-group .table th {
+    /* width:70px; */
+    text-transform: capitalize;
+    vertical-align:middle;
+    background-color: #ebeef3;
+    padding: 3px 5px;
+    font-size: 14px;
+    font-weight: 800;
+    }
+
+    .customer-name{
+        width: 200px;
+    }
+    .affinity-portal-table-component .table-group .table td {
+        height: 20px!important;
+        vertical-align:middle;
+        font-weight: 400;
+    }
+    .affinity-portal-table-component .table-group .table tr {
+            text-align: left;
+            vertical-align:middle;
+            font-size: 15px;
+    }
+
+    .affinity-portal-table-component .table-group .cars {
+      background-color: #f9f9f9;
+    }
+    
+    .affinity-portal-table-component .table-group .table .setWidthFirstColumn {
+        /* position: relative;    */
+     }
+     .affinity-portal-table-component .table-group .table .setWidthFirstColumn div p{
+       text-align: left;
+       padding-left: 20px
+
+     }
+     .affinity-portal-table-component .table-group .table .setWidthFirstColumn .affinity-checkbox-wrapper {
+            position: absolute;
+            right: 25px;
+            top: 13px;
+    }
+
+     .affinity-portal-table-component .table-group .table .date{
+        width: 100px;
+        text-align: center;
+     }
+    .affinity-portal-table-pagination .affinity-pagination{
+        display: flex; 
+        justify-content: space-between; 
+        align-items:center;
+        margin: 0; 
+        background-color: #ebeef3;
+        padding: 8px;
+    }
+
+    .affinity-portal-table-pagination .affinity-pagination li:not(:last-child){
+        width: 20px;
+        height: 20px;
+        padding: 15px;
+        margin-left:1px ;
+        vertical-align: middle;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: .5px solid #ddd;
+        cursor: pointer;
+    }
+
+    .affinity-portal-table-pagination .affinity-pagination li:not(:last-child):hover{
+        opacity: 0.85;
+    }
+
+    .affinity-portal-table-pagination .affinity-pagination ul li .glyphicon{
+     color: #053C6D;
+     box-shadow: #053C6D;
+    }
+
+    .affinity-portal-table-pagination .affinity-pagination li input{
+        width: 25px;
+        height: 25px;
+        font-size: 14px;
+        text-align: center;
+        color: #053C6D;
+    }
+
+    .affinity-portal-table-pagination .affinity-pagination li p{
+        font-size: 12px;
+        text-align: center;
+        color: #053C6D;
+        padding-left: 20px;
+        padding: 0 0 0 20px!important;
+        margin: 0;
+        
+    }
+
+.affinity-portal-table-pagination-intimation-btn{
+    padding: 5px 15px;
+    background-color: #97291e;
+    color: #ddd;
+    margin-right: 10px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+ }
+
+.affinity-portal-table-pagination-intimation-btn:hover{
+ /* box-shadow: 1px 1px 5px 0(0,0,0, .5); */
+ color: #fff !important;
+ background-color: #812215;
+ }
+
+ .affinity-portal-table-component .success{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+ }
+
+ .affinity-portal-table-component .upload-sucess {
+    width: 20px;
+ }
+
+ /* tr,th:nth-child(2){
+    position:sticky;
+    left:0px;
+    background-color: #f9f9f9; 
+    z-index: 999;
+ }
+
+td:nth-child(2)
+ {
+    position:sticky;
+    left:0px;
+    background-color: #f9f9f9;
+    z-index: 999; } */
+
+   th{
+        position:sticky;
+        top:0px;
+        background-color: #f9f9f9; 
+        z-index: 999;
+        max-width: 200px!important;
+     }
+
+     /* #lan-no{
+        position:sticky;
+        top:0px;
+        background-color: #f9f9f9; 
+        z-index: 999;
+     } */
+
+    .affinity-portal-table-pagination .affinity-pagination img {
+        width: 10px!important;
+    }
+
+
+    .affinity-portal-tableHeadGroup{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-transform: capitalize;
+        position: relative;
+    }
+    
+    .header{
+        margin-left: 10px;
+    }
+    .affinity-portal-tableHeadGroup p{
+    margin: 0;
+    }
+    
+    .affinity-portal-tableHead-filter-group img{
+        width: 12px;
+        cursor: pointer;
+    }
+    .affinity-portal-tableHead-filter-last-child{
+        width: 12px;
+        cursor: pointer;
+    }
+    
+    .claim-status-wrapper .header-table{
+        /* overflow: scroll; */
+        background-color: #ebeef3;
+        margin: 0;
+        padding: 13px 10px;
+        font-weight: bold;
+        font-size: 16px;
+        font-weight: 800;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        /* width: 1200px!important; */
+        max-width: 1200px;
+    }
+
+    .claim-status-wrapper .header{
+        margin-left: 10px;
+        font-weight: 400;
+        font-size: 12px;
+        color: #FFF;
+        background-color: #053C6D;
+        padding: 5px 10px;
+        border-radius: 3px;
+        text-decoration: none;
+       
+    }
+    .claim-status-wrapper .reset-btn{
+        margin-left: 10px;
+        font-weight: 400;
+        font-size: 12px;
+        color: #FFF;
+        background-color: #053C6D;
+        padding: 5px 10px;
+        border-radius: 3px;
+        text-decoration: none;
+        
+       
+    }
+
+    .claim-status-wrapper .reset img{
+        margin-left: 10px;
+        font-weight: 400;
+        font-size: 12px;
+        color: #FFF;
+        background-color: #053C6D;
+        padding: 5px 10px;
+        border-radius: 3px;
+        text-decoration: none;
+    }
+
+    .claim-status-wrapper .header:hover:not(:last-child){
+        background-color: #095395;
+    }
+
+    .claim-status-wrapper .date.header{
+        background-color: transparent;
+        color: #053C6D;
+        font-size: 14px;
+        padding: 0;
+    }
+    
+    .filter-wrapper{
+        position: absolute;
+        top: 20px;
+        right: -200px;  
+        z-index: 9999;
+        margin: 10px;
+        text-align: center;
+        border-radius: 3px;
+        transition: all 2s ease-in-out; 
+       
+    }
+
+  .fiter-wrapper-last-element{
+    position: absolute;
+    top: 20px;
+    left: -70px;  
+    z-index: 9999;
+    margin: 10px;
+    text-align: center;
+    border-radius: 3px;
+    transition: all 2s ease-in-out; 
+  }
+
+  .tringle-filter-last-child{
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: -10px;
+    left: 195px;
+    background-color: #095395;
+    z-index: 100000;
+  }
+
+    .filter-group{
+        background: #fff;
+        padding: 10px;
+        margin-bottom: 5px;
+        box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.51);
+        border-radius: 3px;
+        position: relative;
+    }
+
+    .input-type-group{
+        margin-bottom: 10px;
+       
+    }
+
+    .input-type-group input[type=text]{
+       border-radius: 3px;
+       height: 30px;
+       border: .5px solid #ebeef3;
+       padding-left:15px;
+       padding-right:5px;
+       box-sizing: border-box;
+       color: #095395;
+    }
+
+    .tringle-filter{
+        clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+        width: 10px;
+        height: 10px;
+        position: absolute;
+        top: -10px;
+        left: 15px;
+        background-color: #095395;
+        z-index: 100000;
+    }
+   
+    .filter-btn-group{
+        display: flex;
+        justify-content: left;
+        align-items: center;
+    }
+
+    .filter-btn-group button{
+        background-color: #053C6D;
+        color: #fff;
+        padding: 5px 10px;
+        font-family: 'Mulish';
+        font-weight: 400;
+        font-size: 10px;
+        margin-right: 5px;
+        border-radius: 3px;
+    }
+
+    .filter-btn-group button:hover{
+        background-color: #095395;
+    }
+   
+    /* claim status end table */
+
+    /* claim status */
+
+    .claim-status-wrapper{
+        max-width: 1200px;
+        box-shadow: 0px 2px 1px 0px rgb(0 0 0 / 50%);
+        padding: 0!important;
+        margin: 20px auto!important;
+        
+    }
+    .claim-status-table{
+        overflow: scroll;
+        width: 1350px!important;
+        max-width: 1350px!important;
+        overflow: scroll!important;
+        min-height: 150px;
+    }
+
+.claim-status-wrapper table tr td:last-child{
+    text-align: center;
+}
+
+.claimStatusHeader{
+    color: #97291e;
+    font-size: 16px;
+    font-weight: 800;
+    margin: 0 10px 0 0;
+}
+
+.button-back-wrapper{
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.btn-back-claim-intimation{
+    font-weight: 600;
+    background-color: #fff;
+    color: #97291e;
+    border: 1px solid #97291e;
+    outline: none;
+    border-radius: 8px;
+    height: 37px;
+    width: 137px;
+    font-size: 16px;
+    transition: 0.15s;
+   
+}
+
+.btn-back-claim-intimation:hover{
+    color: #fff !important;
+    background-color: #812215;
+}
+
+.button-reset-all-filter-icon{
+    width: 12px;
+    cursor: pointer;
+}
+
+/* reset password page end*/
+
+.affinity-portal-Reset-password-main{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.affinity-portal-Reset-password-wrapper{
+    max-width: 700px;
+    margin:auto;
+    font-size: 16px;
+    font-family: 'mulish';
+    font-weight: 600;
+    border: .5px solid #bcbcbc;
+    border-radius: 8px;
+}
+
+.affinity-portal-Reset-password-wrapper h3{
+    text-align: center;
+    text-transform: uppercase;
+    color: #053C6D;
+    margin-top: 0;
+    padding: 10px;
+    border-radius: 8px 8px 0 0;
+    background: #eee;
+    font-family: 'Mulish', sans-serif !important;
+}
+
+.affinity-portal-Reset-password{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 20px;
+}
+
+.reset-password-content-requirement-pending {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 20px;
+    font-size: 16px;
+    font-family: 'mulish';
+}
+
+.reset-password-content-requirement-pending h3{
+ font-weight: 600;
+ text-decoration: underline;
+
+}
+
+.reset-password-content-requirement-pending p{
+    /* text-transform: capitalize; */
+}
+.affinity-portal-Reset-password p{
+    width: 200px;
+    text-align: right;
+    text-transform: capitalize;
+    margin: 0;
+    margin-right: 20px;
+    flex: 1;
+    color: #053C6D;
+    font-family: 'Mulish', sans-serif !important;
+}
+
+.affinity-portal-Reset-password input[type=text]{
+/* border: .5px solid #af2b30; */
+/* border: 0.97px solid #053C6D; */
+border: .97px solid #ccc;
+padding: 5px;
+cursor: pointer;
+line-height: 19px;
+/* box-shadow: 0px 2px 12px 0px #9999991f; */
+border-radius: 5px;
+font-size: 14px;
+outline: none;
+background-color: #e8f0fe;
+flex: 1;
+/* box-shadow: 0px 3.8614232540130615px 11.584269523620605px 0px #0000001f; */
+/* background: #F7F7F7; */
+color: #053C6D;
+height: 35px;
+}
+
+
+.affinity-portal-Reset-password-submit-btn{
+    background-color: #97291e;
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    height: 37px;
+    width: 137px;
+    font-size: 16px;
+    font-family: 'Mulish', sans-serif !important;
+}
+
+.affinity-portal-Reset-password-cancel-btn{
+    background-color: #fff;
+    color: #97291e;
+    border: 1px solid #97291e;
+    outline: none;
+    border-radius: 8px;
+    height: 37px;
+    width: 137px;
+    font-size: 16px;
+    transition: 0.15s;
+    margin:10px;
+    font-family: 'Mulish', sans-serif !important;
+}
+
+.affinity-portal-Reset-password-cancel-btn:hover{
+    color: #fff !important;
+    background-color: #812215;
+}
+
+@media(max-width:500px){
+
+    .affinity-portal-Reset-password-wrapper{
+     width: 100%;
+    }
+    .affinity-portal-Reset-password{
+        flex-direction: column;
+    
+    }
+
+    .affinity-portal-Reset-password[child="last-child"]{
+        flex-direction: row;
+    
+    }
+    .affinity-portal-Reset-password p{
+        width: 80%;
+        text-align: left;
+        margin: 0;
+        margin-bottom: 5px;
+        flex:none;
+}
+
+.affinity-portal-Reset-password input[type=text]{
+    width: 80%;
+    height: 40px!important;
+    flex:none;
+}
+
+}
+/* reeet password page */
+
+
+/* requirement pending */
+.claim-requirement-table{
+    overflow: scroll;
+    /* width: 1500px!important;
+    max-width: 1500px!important; */
+    overflow: scroll!important;
+    min-height: 150px;
+}
+
+.claim-requirement-table th{
+    vertical-align: middle!important;
+}
+
+.claim-requirement-table td{
+    vertical-align: middle!important;
+}
+
+.claim-requirement-table .filter-wrapper{
+    top: 40px!important;
+}
+.claim-requirement-table:nth-child(2){
+    width: 100px!important;
+}
+.affinity-portal-requirement-pending-table-icon{
+    width: 25px;
+}
+.affinity-portal-status-table-icon{
+        width: 15px!important;
+    }
+    @media(max-width:776px){
+
+        .affinity-portal-searchBar-component .searchBar-group p{
+        padding: 10px;
+        }
+        .affinity-portal-searchBar-component .searchBar-group .inputTextFeild .searchBar{
+            padding-right: 20vw;
+            padding-left: 20vw;
+            line-height: normal; 
+        }
+
+        .claimStatus-searchBar{
+            max-width: 450px;
+        }
+       .submit-reset-button-group{
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+        }
+
+         .submit-reset-button-group button{
+            margin: 5px;
+        }
+
+        .button-group{
+        flex-direction: column;
+        }
+        /* .claim-status-wrapper .header-table div a{
+            flex: 1;
+        } */
+
+}   
+
+@media(max-width:350px){
+
+
+    .submit-reset-button-group{
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+    }
+
+    .affinity-portal-searchBar-component .searchBar-group .inputTextFeild .affinity-portal-search-icon {
+        width: 25px;
+        top: 15px!important;
+    }
+
+    .affinity-portal-searchBar-component .searchBar-group .inputTextFeild .affinity-portal-keypad-icon {
+        width: 25px;
+        top: 18px!important;
+    }
+}
+
+
+
+.documentUploadcontainer{
+    border: 2px solid #97291e;
+    border-radius: 15px;
+    margin-top: 20px;
+    padding: 30px 10px;
+}
+
+.documentUploadBtn{
+    background-color: #97291e;
+    color: #fff;
+    border-top-right-radius: 8px !important;
+    border-bottom-right-radius: 8px !important;
+}
+
+.documentUploadBtn:hover{
+    color: #fff !important;
+    background-color: #812215;
+
+}
+
+.documentUploadTableDownloadBtn{
+    background-image: url(../assets/icons/download-cloud-arrow.svg);
+    background-size: contain;
+    background-color: transparent;
+    height: 22px;
+    width: 22px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.documentUploadTableDownloadBtn:hover , .documentUploadTableUploadBtn:hover{
+    opacity: 0.8;
+}
+
+.documentUploadTableUploadBtn{
+    background-image: url(../assets/icons/upload-cloud-arrow.svg);
+    background-size: contain;
+    background-color: transparent;
+    height: 22px;
+    width: 22px;
+    margin-bottom: -5px;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.documentUploadBottonButtons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    /* padding-left: 0 !important;
+    padding-right: 0 !important; */
+}
+
+.cancelDocumentUploadBtn{
+    padding: 8px 18px;
+    background-color: #fff;
+    border: 1.5px solid #97291e;
+    border-radius: 8px;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 500;
+    color: #97291e;
+    height: 37px;
+    width: 137px;
+}
+
+.cancelDocumentUploadBtn:hover{
+    background-color: #97291e;
+    color: #fff;
+}
+
+.uploadDocumentsBtn{
+    padding: 8px 18px;
+    background-color: #97291e;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 500;
+    color: #fff;
+    height: 37px;
+    width: 137px;
+}
+
+.uploadDocumentsBtn:hover{
+    background-color: #812215;
+}
+
+/* .documentUploadcontainer .col-md-6{
+    margin-bottom: 14px;
+} */
+
+.docUploadLeftColLabel , .docUploadRightColInput{
+    margin-bottom: 14px;
+}
+
+
+.form-control:focus{
+    border-color: #97291e !important;
+    box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%), 0 0 2px #97291e !important;
+}
+
+.documentLabelName{
+    font-size: 16px;
+    font-weight: 500;
+    height: 24px;
+    text-transform: capitalize;
+}
+
+.uploadDocumentsHeader{
+    text-align: center;
+    margin-bottom: 25px;
+    margin-top: 0;
+    font-size: 28px;
+    font-weight: 800;
+    color: #97291e;
+}
+.documentUploadcontainer .form-control{
+    border-radius: 8px;
+}
+
+.uploadDocumentsDisclamier{
+    padding-top: 26px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.uploadDocumentsDisclamier p{
+    line-height: 22px;
+    text-align: left;
+}
+
+/* **************************** bulk Claims UploadC *************************** */
+
+.bulkClaimsUploadContainer{
+    border: 2px solid #97291e;
+    border-radius: 15px;
+    margin-top: 20px;
+    padding: 30px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.excelTemplateButton{
+    background-color: #fff;
+    border: 1px solid #99291A;
+    border-radius: 8px;
+    padding: 6px 30px;
+    font-size: 16px;
+    color: #99291A;
+    font-weight: 600;
+    transition: all .15s ease;
+}
+.excelTemplateButton:hover{
+    background-color: #99291A;
+    color: #fff;
+}
+
+.bulkUploadCliamStatus label{
+    font-size: 16px;
+}
+
+.bulkUploadDocumentBoxContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.bulkDocumentUploadsBox{
+    border: 2px dotted #99291A;
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    max-width: 500px;
+    height: 220px;
+}
+
+.bulkDocumentUploadsBox img{
+    height: 75px;
+    opacity: 50%;
+}
+
+.bulkDocumentUploadsBox .input-group{
+    display: block;
+}
+
+.bulkDocumentUploadsBox .input-group .input-group-btn .bulkDocumentUploadBtn {
+    background-color: #99291A;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 8px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.bulkDocumentUploadsBox .input-group .input-group-btn .bulkDocumentUploadBtn:hover{
+    color: #fff;
+    background-color: #812215;
+}
+
+.buldClaimButtons{
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.bulkClaimUploadingBtn{
+    padding: 8px 18px;
+    background-color: #97291e;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 500;
+    color: #fff;
+    height: 37px;
+}
+
+.bulkClaimUploadingBtn:hover{
+    background-color: #812215;
+    color: #fff;
+}
+
+.bulkClaimBackBtn{
+    padding: 8px 18px;
+    background-color: #fff;
+    border: 1.5px solid #97291e;
+    border-radius: 8px;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 600;
+    color: #97291e;
+    height: 37px;
+    width: 137px;
+    transition: all .15s ease;
+}
+
+.bulkClaimBackBtn:hover{
+    background-color: #99291A;
+    color: #fff;
+}
+
+.bulkUploadClaimType{
+    max-width: 25%;
+    width: 100%;
+    min-width: 220px;
+}
+
+.bulkDocumentUploadNote{
+    margin-bottom: 0;
+    margin-top: 10px;
+    text-align: center;
+}
+
+/* ************************ Claim Status MenuBar ***************************** */
+.claimStatusMenuBar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    gap: 1rem;
+}
+
+.claimStatusHeader h2{
+    font-size: 28px;
+    font-weight: 800;
+    color: #E77919;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.claimStatusMenuLinks{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.claimStatusMenuLinks a{
+    font-size: 16px;
+    color: #004a80;
+    text-decoration: underline;
+    padding: 5px;
+}
+
+.claimStatusMenuLinks a:hover{
+    text-decoration: none;
+}
+
+.claimStatusMenuDownloadBtn button{
+    padding: 7px 18px;
+    background-color: #fff;
+    border: 1.5px solid #97291e;
+    border-radius: 8px;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 500;
+    color: #97291e;
+    transition: 0.15s;
+}
+
+.claimStatusMenuDownloadBtn button:hover{
+    background-color: #97291e;
+    color: #fff;
+}
+
+.claimStatusMenuSearchBar{
+    border-bottom: 1px #dedede solid;
+}
+
+.claimStatusMenuSearchBar form{
+    display: flex;
+    align-items: center;
+    padding: 2px 5px;
+    margin: 0 5px;
+}
+
+.claimStatusMenuSearchBtn{
+    background-image: url(../assets/icons/affinity-portal-search-icon.png);
+    display: block;
+    height: 24px;
+    width: 24px;
+    background-size: contain;
+    background-color: transparent;
+    margin-top: 5px;
+}
+
+.claimStatusMenuSearchBtn:hover{
+    opacity: 0.8;
+}
+
+/* ******************  UTILITY CLASSES  ********************* */
+.mT0{
+    margin-top: 0;
+}
+.mT10{
+    margin-top: 10px;
+}
+.mT30{
+    margin-top: 30px;
+}
+.mB5{
+    margin-bottom: 5px;
+}
+.mB10{
+    margin-bottom: 10px;
+}
+.mL20{
+    margin: 0 0 0 20px;
+}
+.mR20{
+    margin: 0 20px 0 0;
+}
+.mR10{
+    margin: 0 10px 0 0!important;
+}
+.mR5{
+    margin: 0 5px 0 0!important;
+}
+.mB20{
+    margin-bottom: 20px;
+}
+.fontSize-16{
+    font-size: 16px;
+}
+.fw-bold{
+    font-weight: 600;
+}
+.txtRed{
+    color: red;
+}
+
+.affinityCustomRadio{
+    accent-color: #97291e;
+}
+
+.affinity-portal-btn{
+    background-color: #97291e;
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    height: 37px;
+    width: 137px;
+    font-size: 16px;
+}
+
+.tableHeadingBackgroundColor{
+    background-color: #ebeef3;
+}
+/* _________________________________________________________________________ */
+
+/* *************************  media qurries  **************************** */
+@media (max-width: 1199.98px) { 
+    .documentUploadcontainer{
+        padding: 30px 0;
+    }
+ }
+
+ @media (max-width: 991.98px) { 
+    .documentLabelName {
+        text-align: start !important;
+        margin-bottom: 0;
+    }
+ }
+
+.modal-content{
+    top: 20vh;
+    left: 0;
+    /* right:50%; */
+    text-align: center;
+    color: #345C00;
+    font-size: 18px;
+    font-weight: 500px;
+    padding: 30px;
+    width: 400px;
+    border: 2px solid!important;
+    border-color: #97291e!important;
+    border-radius: 8px;
+    margin: 0 auto;
+  
+}
+
+.intimation-btn{
+    padding-left: 40px!important;
+    padding-right: 40px!important;
+    background-color: #97291e!important ;
+}
+
+.modal-content p{
+    margin: 10px 5px 0 0!important;
+}
+
+.modal-body{
+ 
+    border-radius: 15px;
+    padding:  31px 0 31px 0!important;
+  
+}
+
+.btn-warning{
+    margin: 15px 0 0 0;
+}
+
+/* requirement Pending status */
+
+.affinity-portal-requirementpending-intimation-backbtn{
+    padding: 5px 15px;
+    background-color: #fff;
+    border: 1px solid  #812215;  
+    color:#812215;
+    margin-right: 10px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 10px;
+    width: 137px;
+    height: 37px;
+    
+    }
+
+
+    .affinity-portal-requirementpending-intimation-backbtn:hover{
+        color: #fff !important;
+        background-color: #812215;
+        /* box-shadow: 2px 2px 10px rgba(145, 92, 182, .4); */
+    }
+
+
+.affinity-portal-requirementpending-intimation-submitbtn{
+    padding: 5px 15px;
+    background-color: #97291e;
+    color: #ddd;
+    margin-right: 10px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 10px;
+    width: 137px;
+    height: 37px;
+}
+
+
+.affinity-portal-requirementpending-statusbtns{
+    text-align: left;
+    max-width: 1119px;
+    margin: auto;
+
+}
+
+.affinity-portal-table-component {
+    max-width: 1100px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+    text-transform: capitalize;
+     -webkit-box-shadow: 0px 2px 5px 0px rgb(0 0 0 / 75%);
+    -moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 2px 1px 0px rgb(0 0 0 / 50%); 
+}
+
+.upload-sucess1{
+    width: 25px;
+    /* display: flex;
+    justify-content: space-around;
+    align-items: center */
+}
+
+.affinity-portal-requirementpending-tablecolor{
+    background-color: #fff!important;
+}
+
+
+.affinity-portal-table-component .upload-sucess1 {
+    display: flex;
+
+    justify-content: space-around;
+    align-items: center;
+}
+
+.requirement-pending-table-group{
+    height: auto!important;
+}
+
+.affinity-portal-status-table-icon-usermanagementlock{
+    width: 22px;
+    height: 22px;
+}
+
+
+/* afinity portal dashboard  */
+
+.afinity-portal-dashboard{
+    max-width: 1200px;
+    margin: auto;
+
+}
+
+.afinity-portal-dashboard-wrapper{
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.afinity-portal-dashboard-card{
+    width: 170px;
+    height: 180px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+     border-bottom:5px solid #b6b4b4;
+    outline: none;
+    border-radius: 25px;
+    box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.75);
+    cursor: pointer;
+    margin: 10px;
+    margin-left: 20px;
+    padding: 10px;
+    position: relative;
+
+}
+
+.afinity-portal-dashboard-card:hover{
+    box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.75);
+    /* border-left:10px solid #053C6D; */
+}
+
+.afinity-portal-dashboard-card-image{
+    /* width: 70px; */
+   position: absolute;
+   top: 30px;
+    }
+
+.afinity-portal-dashboard-card-image img{
+/* width: 100%;
+margin-top: 20px;
+overflow: hidden; */
+}
+
+.afinity-portal-dashboard-card p {
+    font-family: 'Mulish';
+    font-size: 16px;
+    font-weight: 600;
+    color: #053C6D;
+    margin-top:20px;
+    text-align: center;
+    line-height: 2rem;
+    position: absolute;
+    top: 100px;
+}
+
+/* afinity portal dashboard end */
+
+/* new Password creation */
+.Affinity-portal-setNewPassword{
+
+    max-width: 500px;
+    border: .5px solid #b02a30;
+    border-radius: 25px;
+    margin: 0px auto;
+    margin-top: 10px;
+}
+
+.Affinity-portal-setNewPassword-wrapper{
+  padding: 20px;
+  max-width: 70%;
+  margin: 0px auto;
+}
+
+.set-password-group-one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.set-password-group-one img{
+    width: 35px;
+    margin-right: 20px;
+}
+
+.set-password-group-one p{
+    font-size: 16px;
+    text-decoration: underline;
+    font-weight: 600;
+    color: #97291e;
+    cursor: pointer;
+}
+.Affinity-portal-setNewPassword-wrapper{
+    text-align: center;
+    position: relative;
+}
+.Affinity-portal-setNewPassword-wrapper > p{
+ text-transform: uppercase;
+ font-size: 16px;
+ font-weight: 600;
+ text-align: center;
+ margin-top: 20px;
+}
+
+ .setNewinputTextOne {
+    height: 35px;
+    border: 1px solid #707070;
+    outline: none;
+    padding:0 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    width: 80%;
+
+}
+
+.Affinity-portal-setNewPassword-btn-one{
+    background-color: #97291e;
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    height: 37px;
+    width: 117px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.Affinity-portal-setNewPassword-btn-two{
+    background-color: #fff;
+    color: #97291e;
+    border: 1px solid #97291e;
+    outline: none;
+    border-radius: 8px;
+    height: 37px;
+    width: 117px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+    .Affinity-portal-setNewPassword-btn-two:hover{
+        background-color: #97291e;
+        color: #fff;
+        border: none;
+        outline: none;
+        border-radius: 8px;
+        height: 37px;
+        width: 117px;
+        font-size: 16px;
+    }
+    .Affinity-portal-setNewPassword-information-tag-wrapper{
+        width: 20px;
+        position: absolute;
+        top: 175px;
+        left: 300px;
+        cursor: pointer;
+    }
+
+    .Affinity-portal-setNewPassword-information-tag-wrapper:hover + .Affinity-portal-setNewPassword-wrapper-detail-information{
+     display: block;
+     width: 300px!important;
+     
+    }
+    
+.Affinity-portal-setNewPassword-information-tag{
+    width: 20px;
+    font-size: 7px;
+}
+
+.Affinity-portal-setNewPassword-wrapper-detail-information{
+    text-align: left;
+    padding: 10px;
+    position: absolute;
+    top: 70px;
+    right: -300px;
+    background-color: #fff;
+    color: #004a80;
+    box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.75);
+    border-radius: 15px;
+    display: none;
+
+}
+
+.Affinity-portal-setNewPassword-wrapper-detail-information ul li{
+    list-style: circle;
+    list-style-position:inside;
+    }
+    .Affinity-portal-setNewPassword-wrapper-detail-information ul li ul{
+        list-style:disc;
+        list-style-position:inside;
+        margin-left: 10px;
+        }
+
+/* tooltip */
+
+  /* tooltip end */
+
+
+/* end new passwrd */

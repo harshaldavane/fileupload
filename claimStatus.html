@@ -1,0 +1,88 @@
+  <!DOCTYPE html>
+  <html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- external bootsrap links-->
+    <link rel="stylesheet" href="css/affinityPortal.css">
+    <link rel="stylesheet" href="/bootstrap-3.4.1-dist/css/bootstrap.min.css">
+    <script src="bootstrap-3.4.1-dist/js/bootstrap.min.js"></script>
+    <script src="./js/jquery-2-1.min.js"></script>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <script src="mycontroller.js"></script>
+  </head>
+
+  <body>
+
+<!-- table start -->
+    <div class="claim-status-wrapper" ng-app="myapp" ng-controller="myctrl">
+      <div class="text-left header-table">
+        <h4 class="text-left claimStatusHeader" style="font-weight: 400; line-height: 2.5rem;">{{title.title}}</h4>
+      </div>
+      <div class="table-wraper" style="overflow-x:scroll;">
+        <table class="table table-bordered claim-status-table table-striped" style=" width: 1200px!important;" >
+          <thead>
+            <tr style="visibility: hidden; border: none; ">
+              <th style="width: 35%;">
+                <div class="affinity-portal-tableHeadGroup">
+                  <p></p>
+              </th>
+              <th style="width: 35%;">
+                <div class="affinity-portal-tableHeadGroup">
+                  <p>LAN/REF No.</p>
+                </div>
+          
+              </th>
+
+              <th style="width: 10%;">
+                <div class="affinity-portal-tableHeadGroup">
+                  <p>Policy no.</p>
+                </div>
+          
+              </th>
+              <th style="width: 12%; ">
+                <div class="affinity-portal-tableHeadGroup">
+                  <p>Customer Name</p>
+                </div>
+              </th>
+              <th  style="width: 8%;">
+                <div class="affinity-portal-tableHeadGroup">
+                  <p>MPH Name</p>
+                </div>
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr >
+              <td style="font-weight: 600;">
+                <p style="margin:10px 0;">{{records.descriptionOne}}</p> 
+                <p style="margin:10px 0;">{{recordsThree.descriptionThree}}</p>
+                <p style="margin:10px 0;">{{recordsFive.descriptionFive}}</p>
+                <p style="margin:10px 0;">{{recordsSeven.descriptionSeven}}</p>
+              </td> 
+              <td style="font-weight: 600;">
+                <p style="margin:10px 0;">{{recordsTwo.descriptionTwo}}</p>
+                <p style="margin:10px 0;">{{recordsFour.descriptionFour}}</p>
+                <p style="margin:10px 0;">{{recordsSix.descriptionSix}}</p>
+                <p style="margin:10px 0;">{{recordsEight.descriptionEight}}</p>
+              </td>
+              <td><button class="btn btn-default">Brouse & upload</button></td>
+              <td><button class="btn btn-default">Preview</button></td>
+              <td><button class="btn btn-default">save</button></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <!-- table end -->
+    <div class="button-back-wrapper">
+      <button class="btn-back-claim-intimation">Back</button>
+    </div>
+        <script src="mycontroller.js"></script>
+  </body>
+  </html>
