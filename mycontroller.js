@@ -1,5 +1,8 @@
 var app = angular.module('myapp',[]);
 app.controller('myctrl', function($scope, $http){
+    var popupwrappers = document.querySelector('.popupwrapper');
+    var popupselectfile = document.getElementsByClassName('popupselectfileclass');
+
     var destinations;
     $http.get('http://localhost:5500/myfile.json')
     .then(function (response){
@@ -18,5 +21,30 @@ app.controller('myctrl', function($scope, $http){
     }, function errorCall(response){
         console.log("Unable to preform get request");
     })
+
+    $(".popupwrapper").hide();
+    $scope.uploadDoc = function(){
+      
+      $(".popupwrapper").toggle();
+
+    };
+
+    $scope.popupselectfiles = function (){
+      newNode()
+    };
+    function insertAfter(referenceNode, newNode) {
+      referenceNode.parentNode.insertBefore(newNode, referenceNode.nextSibling);
+    }
+
+    function newNode(){
+      var input=document.createElement('input');
+      input.type="file";
+      input.setAttribute('ng-click','popupselectfiles()');
+      input.className ='popupselectfileclass';
+     
+      var popupgroupp = document.querySelector('.popupgroup');
+      popupgroupp.insertBefore(input, input.nextSibling);
+      popupgroupp.appendChild(input);
+    };
 
 });

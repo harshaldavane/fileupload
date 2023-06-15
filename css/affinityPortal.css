@@ -1532,3 +1532,25 @@ overflow: hidden; */
 
 
 /* end new passwrd */
+
+
+
+/* Gurmeet Ma'am table */
+.popupwrapper{
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    border-radius: 4px;
+    max-height: 600px;
+    background-color: #fff;
+    box-shadow: 0px 0px 15px 1px #888;
+    border: none;
+}
+
+.popupgroup{
+
+    padding: 10px;
+
+}
+/* Gurmeet Ma'am table */

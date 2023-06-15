@@ -18,9 +18,17 @@
   </head>
 
   <body>
+<!-- POPUP -->
+
+<!-- POPUP END -->
 
 <!-- table start -->
     <div class="claim-status-wrapper" ng-app="myapp" ng-controller="myctrl">
+      <div class="popupwrapper" style="max-width: 400px;">
+        <div class="popupgroup" style="width: 100%;">
+          <input type="file" class="popupselectfileclass" id="popupselectfile" name="myfile" ng-click="popupselectfiles()">
+        </div>
+      </div>
       <div class="text-left header-table">
         <h4 class="text-left claimStatusHeader" style="font-weight: 400; line-height: 2.5rem;">{{title.title}}</h4>
       </div>
@@ -71,7 +79,7 @@
                 <p style="margin:10px 0;">{{recordsSix.descriptionSix}}</p>
                 <p style="margin:10px 0;">{{recordsEight.descriptionEight}}</p>
               </td>
-              <td><button class="btn btn-default">Brouse & upload</button></td>
+              <td><button class="btn btn-default" ng-click="uploadDoc()">Browser & upload</button></td>
               <td><button class="btn btn-default">Preview</button></td>
               <td><button class="btn btn-default">save</button></td>
             </tr>
